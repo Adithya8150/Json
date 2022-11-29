@@ -1,0 +1,43 @@
+.main
+{
+    width:400px;
+    padding:10px;
+    border:2px solid rgb(230, 170, 7);
+    border-radius:10px;
+    margin-top:100px;
+    margin-left:250px;
+    background-color: rgb(165, 204, 26);
+    float:left;
+}
+
+input[type=text],input[type=password],input[type=middlename]
+{
+    width: 200px;
+    height: 25px;
+    padding: 5px;
+    margin-bottom: 2px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+
+
+
+
+input[type=button]
+{
+    width: 100px;
+    height: 25px;
+    padding: 5px;
+    background-color: rgb(230, 230, 230);
+    margin-bottom: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.v
+{
+    display: inline-block;
+    width: 150px;
+    text-align:center;
+}

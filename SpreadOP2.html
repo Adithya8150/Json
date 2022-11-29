@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title> Spread Operator</title>
+        <script>
+            var a=[1,2,3,4,5,6]
+            var[one,two,...rest]=a 
+            document.write(`one:${one}<br>`) 
+            document.write(`two:${two}<br>`)
+            document.write(`rest:${rest}<br>`)
+            var b=[...a]
+            document.write(b)
+
+            var c=[1,2,3]
+            var d=[3,4,5]
+            var e=[...c,...d]
+            document.write(`e value is:${e}`)
+        </script>
+    </head>
+</html>

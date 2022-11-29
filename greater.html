@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title> My World</title>
+        <script>
+
+            function greater()
+            {
+                var a=parseInt(document.getElementById("n").value);
+                var b=parseInt(document.getElementById("m").value);
+                if(a>b)
+                {
+                    document.getElementById("o").value=a;
+                }
+                else
+                {
+                    document.getElementById("o").value=b;
+                }
+            }
+        </script>
+    </head>
+    <body bgcolor="lightblue"><center>
+        <form name="fi">
+            Enter the First num1:<input type="text" id="n"> <br>
+            Eneter the Second num2:<input type="text" id="m"> <br>
+            <input type="button" value="check" onclick="greater()"><br>
+            <input type="text" id="o">is greater
+        
+        </form>
+        </center>
+    </body>
+</html>

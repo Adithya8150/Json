@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title> vowel </title>
+        <script>
+            function cal()
+            {
+                var a=document.getElementById("m").value;
+                if(a=="a" | a=="e" |  a=="i"  |  a=="o"  |  a=="u")
+                {
+                    document.getElementById("n").innerHTML="its a vowel";
+                }
+                else
+                {
+                    document.getElementById("n").innerHTML="its a constant";
+                }
+            }
+            
+
+
+        </script>
+    </head>
+    <body><center>
+        Enter A  Alphabet<input type="text" id="m"><br><br>
+        <input type="button" value="check" onc lick="cal()"><br><br>
+        <p id="n"></p>
+    </center>
+    </body>
+</html>

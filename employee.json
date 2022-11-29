@@ -1,0 +1,8 @@
+{
+    "name":"ABC",
+    "id":"E001",
+    "salary":25000,
+    "isprogrammer":true,
+    "skills":["c","c++","Java","Python"]
+}
+    

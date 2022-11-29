@@ -1,0 +1,70 @@
+<html>
+    <haed>
+        <title> layer</title>
+        <style>
+            .layer1
+            {
+                border:solid thick black;
+                padding:1in;
+                width:300px;
+                background-color:rgb(11, 136, 194);
+                position:absolute;
+                top:90px;
+                left:200px;
+                z-index:0;
+            }
+            .layer2
+            {
+                border:solid thick black;
+                padding:1in;
+                width:300px;
+                background-color:rgb(231, 235, 11);
+                position:absolute;
+                top:120px;
+                left:220px;
+                z-index:0;
+            }
+            .layer3
+            {
+                border:solid thick black;
+                padding:1in;
+                width:300px;
+                background-color:rgb(103, 5, 214);
+                position:absolute;
+                top:140px;
+                left:240px;
+                z-index:0;
+            }
+            .layer4
+            {
+                border:solid thick black;
+                padding:1in;
+                width:300px;
+                background-color:rgb(238, 131, 9);
+                position:absolute;
+                top:170px;
+                left:260px;
+                z-index:0;
+            }
+
+        </style>
+        <script>
+            var opt="l4"
+            function fun(x)
+            {
+                var p=document.getElementById(opt).style;
+                var q=document.getElementById(x).style;
+                p.zIndex=0;
+                q.zIndex=10;
+                opt=x;
+
+            }
+        </script>
+    </haed>
+    <body>
+        <h1 class="layer1" id="l1" onmouseover="fun('l1')"></h1>
+        <h2 class="layer2" id="l2" onmouseover="fun('l2')"></h2>
+        <h3 class="layer3" id="l3" onmouseover="fun('l3')"></h3>
+        <h4 class="layer4" id="l4" onmouseover="fun('l4')"></h4>
+    </body>
+</html>

@@ -1,0 +1,11 @@
+{
+    "name":"xyz",
+    "Score":"95",
+    "isadmin":false,
+    "license":null,
+    "Shop item":["food","clothes","oil"],
+    "o":{
+        "name":"pqr",
+        "marks":45
+    }
+}

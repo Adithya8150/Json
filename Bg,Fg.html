@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title> BG,FG</title>
+        <script>
+            function color()
+            {
+                var bc=document.getElementById("m").value;
+                var fc=document.getElementById("n").value;
+                document.body.style.backgroundColor=bc;
+                document.body.style.color=fc;
+
+
+            }
+
+        </script>
+    </head>
+    <b>  <body><center>
+        Enter The Background Color<input type="text" id="m"><br>
+        Enter The Foreground Color<input type="text" id="n"><br>
+        <input type="button" value="CHANGE" onclick="color()"><br>
+    </b></center>
+    </body>
+</html>
